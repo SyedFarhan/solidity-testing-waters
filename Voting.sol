@@ -1,7 +1,7 @@
 pragma solidity ^0.4.18;
 
 contract Voting {
-  mapping (bytes32 => unit8) public votesReceived;
+  mapping (bytes32 => uint8) public votesReceived;
 
   // Declaring an array of bytes32 to store list of candidates
   bytes32[] public candidateList;
